@@ -1,15 +1,25 @@
-h1 {
-    color: #121212;
-}
-
 img {
     width: 380px;
+    display: block;
 }
 
 body {
     border-width: 3px;
+    color: #121212;
 }
 
 html {
     text-align: center;
+}
+
+figure {
+    display:inline-block;
+}
+
+figcaption {
+    text-align: left;
+}
+
+h1 {
+    font-family: sans-serif;
 }
