@@ -1,25 +1,59 @@
-img {
-    width: 380px;
-    display: block;
-}
-
 body {
-    border-width: 3px;
     color: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    /*min-height: 100vh;*/
+    font-family: sans-serif;
 }
 
-html {
+img, p {
+    width: 380px;
+}
+
+p, input::placeholder {
     text-align: center;
+    margin: 0 auto;
+}
+
+img, input, button {
+    border: 3px solid #121212;
 }
 
 figure {
-    display:inline-block;
+    margin: 0 0 10px 0;
+}
+
+input {
+    margin: 40px 0 10px 0;
+}
+
+button {
+    margin: 0;
+    background-color: #121212;
+    color: whitesmoke;
+}
+
+footer {
+    margin: 30px 0 0 0;
 }
 
 figcaption {
-    text-align: left;
+    font-size: small;
 }
 
-h1 {
-    font-family: sans-serif;
+input, button {
+    box-sizing: border-box;
+    width: 250px;
+    padding: 10px; 
+}
+
+input::placeholder {
+    font-weight: bold;
+}
+
+a:link, a:visited {
+    color: #121212;
 }
